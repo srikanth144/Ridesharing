@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Page</title>
+
+	<style>
+		body{
+			background-color:blue;
+		
+		}
+		
+	</style>
+</head>
+<body>
+<div>
+		<li><a href="/a">Login</li>
+		<li><a href="/b">Register</li></a>
+		<li><a href="/c">Image</li></a>
+		
+	</div>
+
+   
+</body>
+<body>
+	<div>
+	<center>
+	<h1>Ride Sharing and CO2 Emissions: A Project Assessment and Proposal for Sustainability</h1>
+	</center>
+
+	<p>Carbon dioxide (CO2) emissions are a major contributor to climate change and global warming. They are produced by the burning of fossil 
+fuels, such as coal, oil, and natural gas, which are used to power transportation,electricity generation, and other activities.Ride pooling, also known as carpooling, is a form of transportation in which multiple passengers share a ride in a single vehicle. This can help reduce the number of vehicles on the road, which in turn reduces CO2 emissions by reducing the total distance traveled by vehicles. By sharing a ride, passengers can reduce the number of trips taken, which can lead to lower fuel consumption and fewer emissions per person.</p>
+
+</div>
+</body>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "34b98e87-a499-493e-b606-d5254365c65e", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "4ec0c269-aca3-42da-b28a-2ae5bee5a78b", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</html>
